@@ -1,0 +1,1 @@
+import{l as n}from"./appDatabase-BpU0yhgm.js";import{r as t}from"./index-DfUqS2og.js";function c(s,o,a){const[u,e]=t.useState({value:a,loading:!0,error:!1});return t.useEffect(()=>{e(r=>({...r,loading:!0,error:!1}));const i=n(s).subscribe({next:r=>e({value:r,loading:!1,error:!1}),error:()=>e(r=>({...r,loading:!1,error:!0}))});return()=>i.unsubscribe()},o),u}export{c as u};

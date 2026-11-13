@@ -1,0 +1,1 @@
+import{u as o}from"./useDexieQuery-BfCuMavB.js";import{l as e,g as s}from"./formService-lJgyIa9q.js";function t(){return o(e,[],[])}function i(r){return o(()=>r===void 0?Promise.resolve(void 0):s(r),[r],void 0)}export{i as a,t as u};

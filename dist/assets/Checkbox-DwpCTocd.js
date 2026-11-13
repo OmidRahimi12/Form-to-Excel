@@ -1,0 +1,1 @@
+import{j as e}from"./index-DfUqS2og.js";function r({label:s,className:c="",...o}){return e.jsxs("label",{className:"choice-control",children:[e.jsx("input",{type:"checkbox",className:c,...o}),e.jsx("span",{children:s})]})}export{r as C};
