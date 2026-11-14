@@ -9,7 +9,7 @@ import { PwaInstallCard } from '../../pwa/components/PwaInstallCard';
 export function BackupSettingsPage() {
   const { t } = useTranslation();
   const backup = useBackupRestore();
-  return <section className="module-page backup-page">
+  return <section className="module-page backup-page redesign-page settings-page">
     <PageHeader eyebrow={t('appName')} title={t('settings')} />
     <Card className="backup-notice"><p>{t('backupLocalOnlyNotice')}</p></Card>
     <PwaInstallCard />

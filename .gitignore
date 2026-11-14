@@ -1,0 +1,7 @@
+# Installed dependencies and generated build output must be recreated per platform.
+node_modules/
+dist/
+dist-ssr/
+
+# Local Vercel metadata.
+.vercel/
